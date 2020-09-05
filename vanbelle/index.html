@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="logo">
+    <img src="images/Vanbelle.png.png" alt="">
+  </div>
+    <div class="slider-container">
+        <div class="slide fade">
+            <img src="images/Picture2.JPG" alt="">
+           <p class="bottom"></p> 
+    </div>
+    <div class="slide fade">
+        <img src="images/picture3.JPG" alt="">
+  
+    </div>
+    <div class="slide fade">
+        <img src="images/Meeting.JPG" alt="">  
+    </div>
+    <div class="slide fade">
+      <img src="images/Passangers.JPG" alt="">
+      <a href="#" class="prev" title="Previous">&#10094</a>
+      <a href="#" class="next" title="Next">&#10095</a>
+    </div>
+    <div class="dots-container">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+     <h3>Let us serve <br> you.</h3>
+    <p class="content">We are a start-up that is up to date with solving the demands of 
+      the modern day world.</p>
+     <div >
+      <p class="payment">Our <br> Payment plan. <br><span class="span">Learn more</span></p>
+       <img class="birds" src="images/Birds.JPG" alt=""></div> 
+       <p class="rasp">Our payment plan</p>
+      <p class="content">
+        With our professional staff, we offer very convenient <br> and pocket-friendly services.
+      </p>
+      <p class="fresh">We will get you to your <br> <span class="destination">destination.</span> </p>
+      <img class="bus" src="images/bus.JPG" alt="">
+   
+     
+    <script>
+        var currentSlide = 0;
+const slides = document.querySelectorAll(".slide")
+const dots = document.querySelectorAll('.dot')
+
+const init = (n) => {
+  slides.forEach((slide) => {
+    slide.style.display = "none"
+    dots.forEach((dot) => {
+      dot.classList.remove("active")
+    })
+  })
+  slides[n].style.display = "block"
+  dots[n].classList.add("active")
+}
+document.addEventListener("DOMContentLoaded", init(currentSlide))
+const next = () => {
+  currentSlide >= slides.length - 1 ? currentSlide = 0 : currentSlide++
+  init(currentSlide)
+}
+
+const prev = () => {
+  currentSlide <= 0 ? currentSlide = slides.length - 1 : currentSlide--
+  init(currentSlide)
+}
+
+document.querySelector(".next").addEventListener('click', next)
+document.querySelector(".prev").addEventListener('click', prev)
+setInterval(() => {
+  next()
+}, 5000);
+
+dots.forEach((dot, index) => {
+  dot.addEventListener("click", () => {
+    init(index)
+    currentSlide = i
+  })
+})
+   
+    </script>
+<div class="dandelion">
+   <h3>
+     OUR VISION
+    </h3>
+    <div class="drop-content">To become Nigeria's 
+      foremost vehicle rental company.</div>
+</div>
+
+
+ <div class="raspberry">
+   <h3>
+     OUR MISSION
+   </h3>
+   <div >To provide top-notch logistics
+     services to schools, companies and events.
+   </div>
+  
+ </div>
+<div class="footer">
+  <a href="https://www.instagram.com/vanbelle2013/?hl=en"><img src="images/instagram.png" alt=""></a> 
+   <img src="images/whatsapp 2.png" alt="">
+ <a href="va"> <img  src= "images/gmail.png" alt="></a>
+ <a href=""><img src="images/twitter.png" alt=""></a>
+  <p class="photograph">Contact us</p>
+ 
+
+</div>
+</body>
+</html>

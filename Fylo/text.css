@@ -1,0 +1,366 @@
+@font-face{
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+    font-family: Raleway;
+}
+@font-face{
+    src: url(fonts/OpenSans-Bold.ttf);
+    font-family: OpenSans;
+}
+@font-face{
+    src:url(fonts/OpenSans-Light.ttf);
+    font-family: OpenSans2;
+}
+@font-face{
+    src:url(fonts/OpenSans-SemiBold.ttf);
+    font-family:OpenSans3
+}
+@media screen and (min-width:991px){
+    .f-flex{
+        display: flex;}  
+
+.grid{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 7em;
+    margin-right: 5em;
+    margin-left: 5em;
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 6em;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    background-color: hsl(218, 28%, 13%);
+}
+.grid div p{
+    text-align: center;
+}
+.grid div h3{text-align: center;}
+
+.image img{
+    max-width: 80%;
+    padding-top: 5em;
+    margin-left: 5em;
+}
+
+.flex2{
+  
+    margin-left: 5em;
+    padding-top: 5em;
+}
+.flex2 p{
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 14px;
+    
+}
+.access button{
+    background-color: hsl(176, 68%, 64%);
+}
+.access{background-color: hsl(217, 28%, 15%);
+margin-right: 17em;
+margin-left: 17em;
+margin-top: -28em;
+padding-bottom: 3em;
+color:rgb(221, 220, 220);
+}
+.access p{
+    text-align: center;
+    font-family:  Raleway;
+}
+.access h3{
+    text-align: center;
+    padding-top: 2em;
+    font-family:OpenSans;
+}
+.plan{
+    font-family: OpenSans;
+    font-size: 32px;
+    
+}
+
+.footer{ 
+    background-color: hsl(216, 53%, 9%);
+    margin-top: 14em;
+    
+    
+}
+.lets-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 7em;
+    
+}
+.button input{
+    width: 20em;
+    border-radius: 15px;
+    padding: 5px;
+}
+.button button{
+    width: 12em;
+    border-radius: 10px;
+}
+.button{text-align: center;}
+.outside{
+    color: hsl(176, 68%, 64%);
+    font-family: OpenSans2;
+    font-size: 12px;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+}
+
+
+
+
+
+
+
+
+
+.f-image img{max-width: 4%;
+
+    
+}
+
+.list{
+    padding-top: 3em;
+   
+}
+.list ul{
+    list-style-type: none;
+    
+}
+.list ul li{
+    font-family: OpenSans3;
+}
+.f-flex img{
+    max-width: 60%;
+}
+
+
+body{
+   
+    font-size: 14px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end
+}
+nav ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+body{
+    background-color:hsl(218, 28%, 13%);
+    color: white;
+}
+
+.illustrate{
+    text-align: center;
+}
+.illustrate img{
+    max-width: 40%;
+}
+.illustrate button{
+    border-radius: 20px;
+    background-color: hsl(198, 60%, 50%);
+    color:white;
+    padding: 10px;
+    width: 14em;
+}
+.illwords h3{font-family: OpenSans;
+font-size:30px;}
+.illwords p{
+    font-family: OpenSans3
+}
+.logo{
+    max-width: 3%;
+}
+
+.inside  {text-align: center;
+}
+
+
+
+.testimonials{
+    background-color: hsl(218, 30%, 18%);
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    margin: 2em;
+ font-family: OpenSans3;
+ color:rgb(221, 220, 220);
+
+    
+}
+
+.testimonials img{max-width: 10%;
+   
+
+}
+.main{
+    background-color: hsl(218, 28%, 13%);
+}
+
+.quote{
+    margin-top: 2em;
+}
+
+
+
+@media screen and (max-width:450px){
+    body{
+  font-size: 17px;
+    }
+    .grid{
+        background-color: hsl(218, 28%, 13%);
+margin-top: 6em;
+text-align: center;
+font-family: OpenSans3;
+margin-right: 1em;
+margin-left: 1em;
+
+    }
+    .inside{
+        text-align: center;
+        margin-bottom: 2em;  
+    }
+    .j-cole h3{
+        font-family: OpenSans3;
+    }
+    .j-cole p{
+        margin-bottom: 5em;
+        font-family: OpenSans2;
+    }
+    .image img{
+        max-width: 80%;
+    }
+    .image{ text-align: center;}
+    .testimonials{margin-bottom: 2em;
+        padding-top: 3em;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .flex2{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .footer{padding-top: 20em;
+    background-color: hsl(216, 53%, 9%);
+font-family: OpenSans2;
+}
+    .access{
+        margin-top: -75em;
+        background-color:hsl(218, 28%, 13%);
+        font-family: OpenSans3;
+        padding:3em;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .main{
+        padding-bottom: 20em;
+    }
+    .flex2{
+        font-family: OpenSans2;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        
+
+    }
+    .access h3{
+        text-align: center;
+        font-family: OpenSans2;
+        padding: 1em;
+        font-size: 16px;
+
+
+    }
+    .access p{
+        text-align: center;
+        font-family: OpenSans2;
+        
+
+    }
+    
+    .button input{
+        width:15em;
+        padding: .8em;
+        border-radius: 40px;
+    }
+    .button button{
+        margin-top: 1em;
+        width: 17em;
+        padding: .8em;
+        border-radius: 40px;
+        color: white;
+        background-color: hsl(176, 68%, 64%);
+    }
+    .footer p{
+        margin-left: 1em;
+    }
+    .f-image{
+        margin-left: 1em;
+    }
+
+    .list{
+        font-family: OpenSans2;
+        font-weight: 100;
+    
+    }
+    .list ul li{
+        margin-top: 1em;
+    }
+    .f-flex{
+        margin-left: 1em;
+     display: flex;
+     justify-content: center;
+        margin-top: 2em;
+        padding-bottom: 2em;
+    }
+    .flex img{
+        padding-right: 2em;
+    }
+.illwords h3{
+    font-family: OpenSans2;
+}
+.illwords p{
+    font-family: OpenSans2;
+}
+nav ul li{
+    font-family: OpenSans2;
+    font-size: 13px;
+}
+.illustrate img{
+    max-width: 15em;
+}
+.plan{
+    font-family: OpenSans;
+    font-size: 20px;
+}
+.outside{
+    font-family: OpenSans2;
+    font-size: 12px;
+    color: hsl(176, 68%, 64%);
+    margin-left: 2em;
+}
+
+
+}
