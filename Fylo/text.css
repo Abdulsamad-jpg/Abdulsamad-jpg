@@ -1,44 +1,20 @@
 @font-face{
-    src: url("./fonts/Raleway-VariableFont_wght.ttf");
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
     font-family: Raleway;
 }
 @font-face{
-    src: url("./fonts/OpenSans-Bold.ttf");
+    src: url(fonts/OpenSans-Bold.ttf);
     font-family: OpenSans;
 }
 @font-face{
-    src:url("./fonts/OpenSans-Light.ttf");
+    src:url(fonts/OpenSans-Light.ttf);
     font-family: OpenSans2;
 }
 @font-face{
-    src:url("./fonts/OpenSans-SemiBold.ttf");
+    src:url(fonts/OpenSans-SemiBold.ttf);
     font-family:OpenSans3
 }
-@font-face{
-    src:url("./fonts/Lato-Thin.ttf");
-    font-family:latoT
-}
-@font-face{
-    src:url("./fonts/Lato-Light.ttf");
-    font-family:latoB
-}
-.footer p{
-    font-family: latoT;
-}
-.j-cole h3{
-    font-family: latoT;
-    font-size: 24px;
-}
-.j-cole p{
-    font-family: OpenSans3;
-    line-height: 22px;
-}
-
-@media screen and (min-width:800px){
-    .j-cole h3{
-    font-family: latoT;
-    font-size: 24px;
-}
+@media screen and (min-width:991px){
     .f-flex{
         display: flex;}  
 
@@ -127,23 +103,10 @@ color:rgb(221, 220, 220);
     width: 20em;
     border-radius: 15px;
     padding: 5px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: none;
 }
 .button button{
     width: 12em;
-    padding-top: 8px;
-    padding-bottom: 8px;
     border-radius: 10px;
-    border-radius: 20px;
-    color: rgb(32, 5, 5);
-    font-family: OpenSans;
-    border: none;
-}
-.f-image p{
-    font-family: latoB;
-    text-align: 28px;
 }
 .button{text-align: center;}
 .outside{
@@ -158,30 +121,33 @@ color:rgb(221, 220, 220);
     margin-right: 2em;
 }
 }
-.f-image img{max-width: 20%;
+
+
+
+
+
+
+
+
+
+.f-image img{max-width: 4%;
 
     
 }
 
 .list{
-    padding-top: 16px;
+    padding-top: 3em;
    
 }
 .list ul{
     list-style-type: none;
-    padding-left: 2em;
     
 }
 .list ul li{
-    font-family: latoT;
-    font-size: 14px;
-    line-height: 28px;
+    font-family: OpenSans3;
 }
 .f-flex img{
-    max-width: 20%;
-    max-height: 20%;
-    margin-left: 16px;
-    margin-top: 4px;
+    max-width: 60%;
 }
 
 
@@ -201,7 +167,6 @@ nav ul{
 nav ul li{
     padding: 10px;
     list-style-type: none;
-    font-family: OpenSans;
 }
 body{
     background-color:hsl(218, 28%, 13%);
@@ -215,27 +180,19 @@ body{
     max-width: 40%;
 }
 .illustrate button{
-    border-radius: 18px;
+    border-radius: 20px;
     background-color: hsl(198, 60%, 50%);
     color:white;
-    font-family: latoT;
     padding: 10px;
     width: 14em;
-    border: none;
 }
-.illwords h3{font-family: OpenSans2;
-    font-size:40px;
-}
+.illwords h3{font-family: OpenSans;
+font-size:30px;}
 .illwords p{
-    font-family: latoB;
-    line-height: 22px;
-    font-size: 16px;
-    margin-top: -20px;
+    font-family: OpenSans3
 }
 .logo{
-    max-width: 20%;
-    padding-left: 2em;
-
+    max-width: 3%;
 }
 
 .inside  {text-align: center;
@@ -248,12 +205,9 @@ body{
     padding-left: 3em;
     padding-right: 3em;
     padding-bottom: 2em;
-    padding-top: 2em;
     margin: 2em;
- font-family: latoB;
+ font-family: OpenSans3;
  color:rgb(221, 220, 220);
- border-radius: 45px;
- line-height: 22px;
 
     
 }
@@ -262,7 +216,6 @@ body{
    
 
 }
-.testimonials figcaption{font-family: OpenSans;}
 .main{
     background-color: hsl(218, 28%, 13%);
 }
@@ -273,11 +226,7 @@ body{
 
 
 
-@media screen and (max-width:800px){
-    .f-flex img{
-        max-width: 20%;
-        margin-left: 16px;
-    }
+@media screen and (max-width:450px){
     body{
   font-size: 17px;
     }
@@ -290,34 +239,16 @@ margin-right: 1em;
 margin-left: 1em;
 
     }
-    .illustrate h3{
-   font-size: 22px;
-   margin-top: 28px;
- 
-    }
-    .illustrate p{
-        font-size: 14px;
-        line-height: 24px;
-        margin-top: 20px;
-    }
     .inside{
         text-align: center;
         margin-bottom: 2em;  
     }
     .j-cole h3{
         font-family: OpenSans3;
-        font-size: 18px;
     }
     .j-cole p{
         margin-bottom: 5em;
         font-family: OpenSans2;
-        font-size: 14px;
-        margin-left: 24px;
-        padding-right: 24px;
-      
-    }
-    .button{
-        border:none;
     }
     .image img{
         max-width: 80%;
@@ -332,12 +263,12 @@ margin-left: 1em;
         margin-left: 1em;
         margin-right: 1em;
     }
-    .footer{padding-top: 10em;
+    .footer{padding-top: 20em;
     background-color: hsl(216, 53%, 9%);
-font-family: OpenSans;
+font-family: OpenSans2;
 }
     .access{
-        margin-top: -59em;
+        margin-top: -75em;
         background-color:hsl(218, 28%, 13%);
         font-family: OpenSans3;
         padding:3em;
@@ -358,14 +289,13 @@ font-family: OpenSans;
         text-align: center;
         font-family: OpenSans2;
         padding: 1em;
-        font-size: 20px;
+        font-size: 16px;
 
 
     }
     .access p{
         text-align: center;
         font-family: OpenSans2;
-        padding-bottom: 1em;
         
 
     }
@@ -385,14 +315,19 @@ font-family: OpenSans;
     }
     .footer p{
         margin-left: 1em;
-        font-family: OpenSans2;
-        font-size: 12px;
     }
     .f-image{
         margin-left: 1em;
     }
 
- 
+    .list{
+        font-family: OpenSans2;
+        font-weight: 100;
+    
+    }
+    .list ul li{
+        margin-top: 1em;
+    }
     .f-flex{
         margin-left: 1em;
      display: flex;
@@ -403,7 +338,12 @@ font-family: OpenSans;
     .flex img{
         padding-right: 2em;
     }
-
+.illwords h3{
+    font-family: OpenSans2;
+}
+.illwords p{
+    font-family: OpenSans2;
+}
 nav ul li{
     font-family: OpenSans2;
     font-size: 13px;
@@ -413,13 +353,13 @@ nav ul li{
 }
 .plan{
     font-family: OpenSans;
-    font-size: 16px;
+    font-size: 20px;
 }
 .outside{
     font-family: OpenSans2;
     font-size: 12px;
     color: hsl(176, 68%, 64%);
-  
+    margin-left: 2em;
 }
 
 
